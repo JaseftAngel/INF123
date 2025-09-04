@@ -1,0 +1,115 @@
+.padre{
+    margin: 5px;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    background-color: aqua;
+    padding: 10px;
+    display: flex;
+    height: 350px;
+
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.padre .caja{
+    background-color: greenyellow;
+    margin: 5px;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    color: red;
+    font-size: 25px;
+    width: 200px;
+}
+
+.gato1{
+    width: 180px;
+    height: 130px;
+}
+.gato2{
+    width: 180px;
+    height: 130px;
+}
+.gato3{
+    width: 180px;
+    height: 130px;
+}
+.gato4{
+    width: 180px;
+    height: 130px;
+}
+.gato5{
+    width: 180px;
+    height: 130px;
+}
+*{margin: 10px;}
+.padre-grid{
+    margin: 5px;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    height: 350px;
+    background-color: green;
+    padding: 10px;
+    font-size: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    color: blue;
+    
+}
+
+.padre-grid .A{
+    background-color: palevioletred;
+    grid-column: 1/5;
+    grid-row: 1/2;
+    display: grid;
+    text-align: center;
+}
+
+.padre-grid .B{
+    background-color: yellow;
+    grid-column: 1/2;
+    grid-row: 2/5;
+    display: grid;
+    text-align: center;
+}
+
+.padre-grid .C{
+    background-color: cyan;
+    grid-column: 2/3;
+    grid-row: 2/4;
+    display: grid;
+    text-align: center;
+
+}
+
+.padre-grid .D{
+    background-color: burlywood;
+    grid-column: 3/5;
+    grid-row: 2/3;
+    display: grid;
+    text-align: center;
+
+}
+.padre-grid .E{
+    background-color: orange;
+    grid-column: 3/5;
+    grid-row: 3/4;
+    display: grid;
+    text-align: center;
+
+}
+.padre-grid .F{
+    background-color: pink;
+    grid-column: 2/4;
+    display: grid;
+    text-align: center;
+
+}
+
+
+
