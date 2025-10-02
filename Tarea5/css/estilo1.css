@@ -1,0 +1,47 @@
+.card-custom {
+  border-radius: 15px;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-custom:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgb(47, 116, 8);
+}
+
+.vs-img {
+  max-height: 180px;
+  filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.6));
+}
+
+.Clas5 {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.Clas5 p {
+  margin: 5px 0;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+h5.card-title {
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.card-body .btn {
+  width: 100px;
+  font-size: 14px;
+}
